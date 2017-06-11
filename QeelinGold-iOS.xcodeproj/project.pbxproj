@@ -33,6 +33,9 @@
 		FADEB9F41EEC3FBB006521B4 /* Case6ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB9F31EEC3FBB006521B4 /* Case6ItemView.m */; };
 		FADEB9F71EEC4597006521B4 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB9F61EEC4597006521B4 /* Case6ViewController.m */; };
 		FADEB9FA1EEC4F26006521B4 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEB9F91EEC4F26006521B4 /* Case7ViewController.m */; };
+		FADEBA021EED2F9F006521B4 /* Case8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEBA011EED2F9F006521B4 /* Case8ViewController.m */; };
+		FADEBA051EED3022006521B4 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEBA041EED3022006521B4 /* RFSegmentView.m */; };
+		FADEBA081EED37B0006521B4 /* Case9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEBA071EED37B0006521B4 /* Case9ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,12 @@
 		FADEB9F61EEC4597006521B4 /* Case6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6ViewController.m; sourceTree = "<group>"; };
 		FADEB9F81EEC4F26006521B4 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
 		FADEB9F91EEC4F26006521B4 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
+		FADEBA001EED2F9F006521B4 /* Case8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8ViewController.h; sourceTree = "<group>"; };
+		FADEBA011EED2F9F006521B4 /* Case8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8ViewController.m; sourceTree = "<group>"; };
+		FADEBA031EED3022006521B4 /* RFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSegmentView.h; sourceTree = "<group>"; };
+		FADEBA041EED3022006521B4 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
+		FADEBA061EED37B0006521B4 /* Case9ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case9ViewController.h; sourceTree = "<group>"; };
+		FADEBA071EED37B0006521B4 /* Case9ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case9ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +176,8 @@
 		FABAEC671EEBFE6900A8360D /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				FADEBA031EED3022006521B4 /* RFSegmentView.h */,
+				FADEBA041EED3022006521B4 /* RFSegmentView.m */,
 				FABAEC681EEBFE9C00A8360D /* Case1ViewController.h */,
 				FABAEC691EEBFE9C00A8360D /* Case1ViewController.m */,
 				FABAEC6B1EEC040700A8360D /* Case2ViewController.h */,
@@ -185,6 +196,10 @@
 				FADEB9F61EEC4597006521B4 /* Case6ViewController.m */,
 				FADEB9F81EEC4F26006521B4 /* Case7ViewController.h */,
 				FADEB9F91EEC4F26006521B4 /* Case7ViewController.m */,
+				FADEBA001EED2F9F006521B4 /* Case8ViewController.h */,
+				FADEBA011EED2F9F006521B4 /* Case8ViewController.m */,
+				FADEBA061EED37B0006521B4 /* Case9ViewController.h */,
+				FADEBA071EED37B0006521B4 /* Case9ViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -458,6 +473,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADEBA081EED37B0006521B4 /* Case9ViewController.m in Sources */,
+				FADEBA051EED3022006521B4 /* RFSegmentView.m in Sources */,
 				FAD012AC1E9492EE0088B2D9 /* ViewController.m in Sources */,
 				FADEB9F71EEC4597006521B4 /* Case6ViewController.m in Sources */,
 				FA74683C1E97E245002DBE06 /* UIColor+Simple.m in Sources */,
@@ -469,6 +486,7 @@
 				FA9E4D2B1EBC4FD800780CE9 /* UIButton+Action.m in Sources */,
 				FABAEC801EEC1E7200A8360D /* Case4ViewController.m in Sources */,
 				FABAEC6A1EEBFE9C00A8360D /* Case1ViewController.m in Sources */,
+				FADEBA021EED2F9F006521B4 /* Case8ViewController.m in Sources */,
 				FABAEC6D1EEC040700A8360D /* Case2ViewController.m in Sources */,
 				FABAEC701EEC057F00A8360D /* Case3ViewController.m in Sources */,
 				FA7468421E97E26E002DBE06 /* colorModel.m in Sources */,
